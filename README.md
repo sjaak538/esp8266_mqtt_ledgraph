@@ -10,6 +10,7 @@ xx Mode
 aabbcc = Color
 nn = number led
 
+Some modes to use
 
 Modes 01 // set 1 single led and color and numberled and put in memory
 
