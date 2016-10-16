@@ -240,7 +240,7 @@ void reconnect() {
       // Once connected, publish an announcement...
       client.publish("outTopic2", "hello world");
       // ... and resubscribe
-      client.subscribe("/pimatic/color");
+      client.subscribe("/ledringgraph");
     } else {
       Serial.print("failed, rc=");
       Serial.print(client.state());
